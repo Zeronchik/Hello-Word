@@ -66,8 +66,10 @@ body {
     border-radius: 24px;
     border: none;
     grid-column: span 8;
+    transition: 150ms;
 
     &:hover {
+        transition: 150ms;
         background-color: $ColorButtonAccentHover;
     }
 
@@ -98,6 +100,7 @@ body {
 
         &:hover {
             outline: $ColorBorderHover;
+            transition: 150ms;
         }
     }
 }
